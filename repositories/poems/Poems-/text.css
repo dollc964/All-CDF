@@ -1,0 +1,45 @@
+body {
+  font-color: white;
+  text-align: center;
+  font-family: 'Quintessential', cursive;
+}
+main {
+  margin: auto;
+  max-width: 650px;
+  background-color: red;
+}
+div {
+  border: 5px;
+  outset: red;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+div.a {
+  border: 5px;
+  outset: red;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+div.b {
+  border: 5px;
+  outset:white;
+  background-color: red;
+  text-align: center;
+}
+h1 {
+  font-size: 100px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 30px;
+}
+h5 {
+  font-size: 30px;
+}
