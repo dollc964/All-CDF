@@ -1,3 +1,120 @@
 div.row {
   display: flex;
+  justify-content: space-around;
+}
+
+div {
+  width: 100%;
+}
+
+menu-contianer {
+  display: flex;
+  justify-content: center;
+  color: pink;
+}
+
+menu {
+  border: 1px solid #fff;
+  width: 900px
+  justify-content: space-bewteen;
+  color: yellow;
+}
+
+links {
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: flex-end;
+}
+
+login {
+  margin-left: flex-end;
+  color: pink;
+}
+
+header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+  color: yellow;
+}
+
+header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  color: pink;
+}
+
+header {
+  align-items: stretch;
+  color: pink;
+}
+
+.social,
+.logo,
+.subscribe {
+  border: 1px solid #5995DA;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first-item {
+  order: -1;
+}
+
+.last-item {
+  order: -1;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+}
+
+.footer-three {
+  flex: 2;
+}
+
+.footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+}
+
+.signup {
+  margin-left: auto;
+}
+
+background {
+  color: pink;
 }
