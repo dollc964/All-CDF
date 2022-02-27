@@ -10,14 +10,14 @@ div {
 menu-contianer {
   display: flex;
   justify-content: center;
-  color: pink;
+  background-color: pink;
 }
 
 menu {
   border: 1px solid #fff;
   width: 900px
   justify-content: space-bewteen;
-  color: yellow;
+  text-decoration-color: yellow;
 }
 
 links {
@@ -28,7 +28,7 @@ links {
 
 login {
   margin-left: flex-end;
-  color: pink;
+  text-decoration-color: pink;
 }
 
 header-container {
@@ -36,7 +36,7 @@ header-container {
   background-color: #D6E9FE;
   display: flex;
   justify-content: center;
-  color: yellow;
+  background-color: yellow;
 }
 
 header {
@@ -44,12 +44,12 @@ header {
   height: 300px;
   display: flex;
   justify-content: space-between;
-  color: pink;
+  text-decoration-color: pink;
 }
 
 header {
   align-items: stretch;
-  color: pink;
+  text-decoration-color: pink;
 }
 
 .social,
@@ -113,8 +113,4 @@ header {
 
 .signup {
   margin-left: auto;
-}
-
-background {
-  color: pink;
 }
