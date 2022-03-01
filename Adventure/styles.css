@@ -17,9 +17,7 @@ body {
 .box {
   max-width: 800px;
   margin: auto;
-  background: white;
   padding: 1rem;
-  column-count: 2;
   column-gap: 2rem;
   line-height: 1.4rem;
 }
@@ -31,4 +29,55 @@ p {
 .content {
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+.row {
+  background: white;
+}
+
+#header {
+  background: pink;
+  min-width:600px;
+}
+
+#footer {
+  background: deeppink;
+}
+
+#footer2 {
+  background: purple;
+}
+
+.hero-image {
+  background-image: url("lickcat.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+  min-height: 300px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#gameoflife {
+  font-size: 30px;
+  color: white;
+}
+
+@media (min-width: 600px) {
+.box {
+    column-count: 2;
+  }
 }
