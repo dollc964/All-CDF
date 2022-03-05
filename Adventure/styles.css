@@ -6,7 +6,7 @@
 
 :root {
   --black: #000;
-  --background: gainsboro;
+  --background: lightblue;
 }
 
 body {
@@ -32,24 +32,33 @@ p {
 }
 
 .row {
-  background: white;
+  background: yellow;
 }
 
 #header {
-  background: pink;
+  background: hotpink;
   min-width:600px;
+  font-size: 30px;
 }
 
 #footer {
   background: deeppink;
+  font-size: 20px;
+  margin: auto;
+  padding: 2px;
+  text-align: center;
 }
 
 #footer2 {
-  background: purple;
+  background: orange;
+  font-size: 20px;
+  margin: auto;
+  padding: 2px;
+  text-align: center;
 }
 
 .hero-image {
-  background-image: url("lickcat.jpg");
+  background-image: url("The Game of Life.png");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,6 +84,58 @@ p {
   font-size: 30px;
   color: white;
 }
+
+.wheel {
+  position: center;
+  size: 100px;
+}
+
+#header2 {
+  background: purple;
+  max-width: 700px;
+}
+
+.board {
+  position: relative;
+  top: -900px;
+}
+
+.box2 {
+  max-width: 100px;
+  margin: 10px;
+  box-sizing: 10px;
+  justify-content: : center;
+}
+
+.businesscard {
+  position: relative;
+}
+
+.cell {
+  margin: auto;
+}
+
+#header4 {
+  font-size: 45px;
+}
+
+.box3 {
+  text-align:center;
+}
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+.box4 {
+  text-align:center;
+  background-color: red;
+  font-size: 40px;
+}
+
 
 @media (min-width: 600px) {
 .box {

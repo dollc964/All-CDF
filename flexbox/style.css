@@ -122,3 +122,8 @@ main {
 body {
   font-color: #FFFFFF;
 }
+
+.doctor {
+  width: 20px;
+  height: 20px;
+}
