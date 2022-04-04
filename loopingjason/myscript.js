@@ -11,7 +11,7 @@ fetch('my_data.json')
     consolde.log(err);
   });
 
-  var mainContainer = document.getElementByID("data_holder");
+  var mainContainer = document.getElementById("data_holder");
 
   function appendData(data) {
     for (var i = 0; i < data.length; i++) {
